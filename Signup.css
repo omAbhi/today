@@ -1,0 +1,19 @@
+.signBtn {
+    width: 6rem;
+    border-radius: 1rem;
+    margin-left: 1rem;
+    border: 1px solid gray;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    padding-top: 4px;
+}
+
+.signBtn2 {
+    width: 6rem;
+    border-radius: 1rem;
+    margin-left: 1rem;
+    border: 1px solid gray;
+    text-align: center;
+    padding-top: 4px;
+}
