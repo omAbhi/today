@@ -1,0 +1,302 @@
+.Hold {
+    background-color: whitesmoke;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.head {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.highlight {
+    color: brown;
+    font-size: 2rem;
+}
+
+.divsHold {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid black;
+    padding: 3rem;
+    gap: 2rem;
+}
+
+.left {
+    width: 50%;
+}
+
+.right {
+    width: 50%;
+}
+
+.leftIn {
+    display: flex;
+    flex-direction: column;
+}
+
+.leftIn2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.rightIn {
+    display: flex;
+    flex-direction: column;
+}
+
+.rightIn2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.left input {
+    border: 1px solid gray;
+    text-align: center;
+    font-size: 1rem;
+    margin: 0.5rem;
+    margin-right: 0;
+    height: 1.9rem;
+    max-width: 17rem;
+}
+
+.left textarea {
+    height: 5rem;
+    max-width: 17rem;
+    margin: 0.5rem;
+}
+
+.left label {
+    margin-top: 0.5rem;
+}
+
+.right label {
+    margin-top: 0.5rem;
+}
+
+.left input[type="file"] {
+    border: none;
+    margin: 0.5rem;
+    margin-right: 0;
+    height: 1.9rem;
+    max-width: 17rem;
+}
+
+.right input[type="file"] {
+    border: none;
+    margin: 0.5rem;
+    margin-right: 0;
+    height: 1.9rem;
+    max-width: 17rem;
+}
+
+.right input {
+    border: 1px solid gray;
+    text-align: center;
+    font-size: 1rem;
+    margin: 0.5rem;
+    margin-right: 0;
+    height: 1.9rem;
+    max-width: 17rem;
+}
+
+.right select {
+    margin: 0.5rem;
+    margin-right: 0;
+    max-width: 17rem;
+
+    font-size: 1rem;
+    text-align: center;
+
+
+}
+
+.selLib {
+    width: 18rem;
+}
+
+.firstClass {
+    border: 1px solid gray;
+    width: 9rem;
+    text-align: center;
+    height: 2.3rem;
+    border-radius: 3rem;
+    padding-top: 4px;
+    margin-right: 0.4rem;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.secondClass {
+    border: 1px solid gray;
+    width: 9rem;
+    text-align: center;
+    height: 2.3rem;
+    border-radius: 3rem;
+    padding-top: 4px;
+    margin-right: 0.4rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.vid {
+    width: 10rem;
+    height: 6rem;
+}
+
+.cv {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    width: 18rem;
+}
+
+.cv img {
+    width: 4rem;
+    height: 3rem;
+    margin-right: .5rem;
+}
+
+.btnHold {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.sbt {
+    margin: auto;
+    display: block;
+    width: 9rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: green;
+    color: white;
+}
+
+.sbt:hover {
+    cursor: pointer;
+    background-color: rgba(5, 129, 5, 0.831);
+}
+
+.backBtn {
+    padding: .5rem 1rem;
+    background: gray;
+    border: none;
+    color: white;
+    font-weight: 600;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 4rem;
+    text-decoration: none;
+    font-size: .9rem;
+}
+
+.notify {
+    color: red;
+    font-size: .8rem;
+    margin: .5rem;
+    margin-top: -.5rem;
+}
+
+.notifyIMG {
+    width: 4rem;
+    margin-left: 1rem;
+}
+
+.notifyIMG:hover {
+    transition: 1s all ease-in-out;
+    transform: scale(1.4);
+}
+
+/*rera*/
+.rera {
+    color: red;
+    background-color: rgba(255, 0, 0, 0.123);
+    width: 11rem;
+}
+
+.rera2 {
+    background-color: rgb(214, 250, 214);
+    color: green;
+    width: 11rem;
+}
+
+/*builder bhk form*/
+.unt {
+    padding: 2rem;
+    margin: 1rem;
+    border: 1px dashed rgba(0, 0, 0, 0.426);
+    display: flex;
+    flex-direction: column;
+}
+
+.unt input {
+    width: 100%;
+    padding: .5rem 1rem;
+    margin: .5rem;
+}
+
+.btndd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnR {
+    background: red;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    padding: .3rem 1rem;
+}
+
+.btnA {
+    background-color: blue;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    padding: .3rem 1rem;
+}
+
+.bhkContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+.bhkHistry {
+    margin: 0rem 1rem;
+    padding: 0rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.bhkCard {
+    background-color: rgb(255, 243, 239);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: .5rem;
+    border-radius: 2rem;
+    margin: .3rem;
+}
+
+.bhkCard img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}

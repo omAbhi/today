@@ -1,0 +1,221 @@
+.formHold {
+    width: 100%;
+    background: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.formHold form {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    border: 1px solid black;
+}
+
+.stepDiv {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    gap: 2rem;
+    padding: 1rem;
+    position: relative;
+}
+
+.stepDiv .left {
+    width: 50%;
+
+
+}
+
+.stepDiv .right {
+    width: 50%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.stepHold {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.stepDiv textarea {
+    width: 100%;
+    padding: .5rem 1rem;
+    margin: .5rem;
+}
+
+.stepDiv input {
+    width: 100%;
+    padding: .5rem 1rem;
+    margin: .5rem;
+}
+
+.multiselect {
+    width: 18rem;
+    margin: .5rem;
+    position: absolute;
+}
+
+.stepDiv select {
+    width: 100%;
+    padding: .5rem 1rem;
+    margin: .5rem;
+}
+
+/* possesion */
+.firstClass {
+    border: 1px solid gray;
+    width: 9rem;
+    text-align: center;
+    height: 2.2rem;
+    border-radius: 3rem;
+    margin: 1rem 0rem;
+    margin-right: 0.4rem;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+}
+
+.secondClass {
+    border: 1px solid gray;
+    width: 9rem;
+    text-align: center;
+    height: 2.2rem;
+    border-radius: 3rem;
+    margin: 1rem 0rem;
+    margin-right: 0.4rem;
+    cursor: pointer;
+}
+
+.Submitbtn {
+    display: flex;
+    background-color: rgb(34, 184, 11);
+    padding: .5rem 5rem;
+    color: white;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.unt {
+    padding: 2rem;
+    margin: 1rem;
+    border: 1px dashed rgba(0, 0, 0, 0.426);
+}
+
+.btndd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnR {
+    background: red;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    padding: .3rem 1rem;
+}
+
+.btnA {
+    background-color: blue;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    padding: .3rem 1rem;
+}
+
+.btnStep1 {
+    background-color: rgba(0, 128, 0, 0.456);
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    padding: .3rem 1rem;
+    margin: 1rem;
+}
+
+.btnStep2 {
+    background-color: rgba(0, 128, 0, 0.726);
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    padding: .3rem 1rem;
+    margin: 1rem;
+}
+
+/*rera*/
+.rera {
+    color: red;
+    background-color: rgba(255, 0, 0, 0.123);
+    width: 11rem;
+}
+
+.rera2 {
+    background-color: rgb(214, 250, 214);
+    color: green;
+    width: 11rem;
+}
+
+.retrimg {
+    font-size: .6rem;
+    color: red;
+    padding: .2rem .5rem;
+    margin: .5rem;
+    width: 100%;
+    margin-top: -.5rem;
+}
+
+.selct {
+    font-size: .7rem;
+    margin: .5rem;
+    margin-top: -.5rem;
+    color: red;
+}
+
+.backBtn {
+    padding: .5rem 1rem;
+    background: gray;
+    border: none;
+    color: white;
+    font-weight: 600;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 4rem;
+    text-decoration: none;
+    font-size: .9rem;
+}
+
+.notif {
+    font-size: .7rem;
+    color: red;
+    background-color: rgba(255, 0, 0, 0.123);
+}

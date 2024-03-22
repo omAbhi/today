@@ -1,0 +1,48 @@
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.con img {
+    width: 4rem;
+}
+
+.hold {
+    background-color: whitesmoke;
+    border: 1px solid rgba(0, 0, 0, 0.543);
+}
+
+.add {
+    width: 9rem;
+    height: 2rem;
+    border-radius: 0.4rem;
+    border: none;
+    background-color: rgba(48, 255, 6, 0.272);
+}
+
+.add:hover {
+    background-color: rgba(48, 255, 6, 0.637);
+    font-weight: 500;
+}
+
+.sbt {
+    margin: auto;
+    display: block;
+    width: 11rem;
+    height: 2.5rem;
+    border-radius: 0.4rem;
+    border: none;
+    background-color: rgb(229, 0, 0);
+    color: white;
+}
+
+.sbt:hover {
+    background-color: rgb(213, 2, 2);
+    font-weight: 500;
+
+}

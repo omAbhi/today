@@ -1,0 +1,141 @@
+.container {
+    width: 100%;
+    padding: 3rem;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.head {
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin: .5rem;
+}
+
+.highlight {
+    color: brown;
+    font-size: 2.5rem;
+}
+
+.container .divHold {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+    border: 1px solid black;
+}
+
+.container .divHold .left {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.container .divHold .right {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.divIn {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.divIn input,
+select,
+textarea {
+    width: 18rem;
+    padding: .5rem;
+    margin: .2rem;
+}
+
+.firstClass {
+    border: 1px solid gray;
+    width: 5rem;
+    text-align: center;
+    height: 2.2rem;
+    border-radius: 3rem;
+    padding-top: 4px;
+    margin-right: 0.4rem;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+}
+
+.secondClass {
+    border: 1px solid gray;
+    width: 5rem;
+    text-align: center;
+    height: 2.2rem;
+    border-radius: 3rem;
+    padding-top: 4px;
+    margin-right: 0.4rem;
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin: .5rem;
+}
+
+.imagestore {
+    font-size: .7rem;
+    margin: .5rem;
+    color: gray;
+}
+
+.cv {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    width: 18rem;
+}
+
+.cv img {
+    width: 3rem;
+    height: 3rem;
+    margin: .5rem;
+    margin-top: -.5rem;
+}
+
+.updateButton {
+    background-color: rgb(106, 106, 250);
+    border: none;
+    width: 15rem;
+    padding: .5rem 1rem;
+    margin: .5rem;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+}
+
+.backBtn {
+    padding: .5rem 1rem;
+    background: gray;
+    border: none;
+    color: white;
+    font-weight: 600;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 4rem;
+    text-decoration: none;
+    font-size: .9rem;
+}

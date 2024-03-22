@@ -1,0 +1,167 @@
+.Hold {
+    background-color: whitesmoke;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.head {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.highlight {
+    color: brown;
+    font-size: 2rem;
+}
+
+.divsHold {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid black;
+    padding: 3rem;
+    gap: 2rem;
+}
+
+.left {
+    width: 50%;
+}
+
+.right {
+    width: 50%;
+}
+
+.leftIn {
+    display: flex;
+    flex-direction: column;
+}
+
+.leftIn2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.rightIn {
+    display: flex;
+    flex-direction: column;
+}
+
+.rightIn2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.left input {
+    border: 1px solid gray;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.left input[type="file"] {
+    border: none;
+}
+
+.right input[type="file"] {
+    border: none;
+}
+
+.right input {
+    border: 1px solid gray;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.selLib {
+    width: 18rem;
+}
+
+.firstClass {
+    border: 1px solid gray;
+    width: 9rem;
+    text-align: center;
+    height: 2.3rem;
+    border-radius: 3rem;
+    padding-top: 4px;
+    margin-right: 0.4rem;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.secondClass {
+    border: 1px solid gray;
+    width: 9rem;
+    text-align: center;
+    height: 2.3rem;
+    border-radius: 3rem;
+    padding-top: 4px;
+    margin-right: 0.4rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.vid {
+    width: 10rem;
+    height: 6rem;
+}
+
+.cv {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    width: 18rem;
+}
+
+.cv img {
+    width: 4rem;
+    height: 3rem;
+    margin-right: .5rem;
+}
+
+.btnHold {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.sbt {
+    margin: auto;
+    display: block;
+    width: 9rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: green;
+    color: white;
+}
+
+.sbt:hover {
+    cursor: pointer;
+    background-color: rgba(5, 129, 5, 0.831);
+}
+
+.backBtn {
+    padding: .5rem 1rem;
+    background: gray;
+    border: none;
+    color: white;
+    font-weight: 600;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 4rem;
+    text-decoration: none;
+    font-size: .9rem;
+}
+
+.notif {
+    font-size: .7rem;
+    color: red;
+    background-color: rgba(255, 0, 0, 0.123);
+}

@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 7rem;
+    padding: 3rem;
+    background-color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.container .left h1 {
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.container .left .highlight {
+    background-color: rgb(255, 217, 0);
+}
+
+.form_container {
+    width: 60vw;
+    border: 1px solid rgba(0, 0, 0, 0.301);
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: white;
+}
+
+.form_container input[type=number] {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.form_container input[type=text] {
+    text-align: center;
+    font-size: 1.2rem;
+
+}
+
+.form_container input[type=date] {
+    text-align: center;
+    font-size: 1.3rem;
+
+}
+
+.form_container input[type=email] {
+    text-align: center;
+    font-size: 1.3rem;
+    height: 2.7rem;
+
+}
+
+.form_container input[type=number] {
+    text-align: center;
+    font-size: 1.3rem;
+
+}
+
+.form_container input[type=file] {
+    border: none;
+
+}
+
+.form_container .autofill {
+    background-color: rgb(230, 226, 226);
+    padding: 1rem;
+}
+
+.form_container .autofill p {
+    font-size: .9rem;
+}
+
+.form_container input,
+textarea {
+    width: 19rem;
+    border: 1px solid gray;
+    outline: none;
+}
+
+.form_container select {
+    width: 19rem;
+    border: 1px solid gray;
+    outline: none;
+}
+
+.required {
+    color: red;
+    font-size: .8rem;
+}
+
+.history .fiil1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5rem;
+    justify-content: space-between;
+}
+
+.note {
+    margin: 1rem 0rem;
+    font-size: .9rem;
+    background-color: rgb(253, 228, 228);
+}
+
+.history .fill2 {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.history .fill2 h3 {
+    margin-bottom: .1rem;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.history .fill2 .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: .5rem;
+}
+
+.form_container .btn {
+    margin-top: 1rem;
+}
+
+.underline {
+    width: 4rem;
+    height: .3rem;
+    background-color: rgb(43, 76, 226);
+    border-radius: 2rem;
+    margin-bottom: .5rem;
+}
+
+.one {
+    background-color: rgb(195, 216, 190);
+    width: 100%;
+    padding: 1rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: self-end;
+    text-align: left;
+}
+
+.one p {
+    text-align: left;
+}
+
+.col2 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.firstClass {
+    border: 1px solid gray;
+    width: 5rem;
+    text-align: center;
+    height: 2.2rem;
+    border-radius: 3rem;
+    padding-top: 4px;
+    margin-right: 0.4rem;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+}
+
+.secondClass {
+    border: 1px solid gray;
+    width: 5rem;
+    text-align: center;
+    height: 2.2rem;
+    border-radius: 3rem;
+    padding-top: 4px;
+    margin-right: 0.4rem;
+    cursor: pointer;
+}
+
+.sel {
+    max-width: 19rem;
+    text-align: center;
+    font-size: 1.1rem;
+    color: black;
+}
+
+.in1 {
+    font-size: 1.1rem;
+}
+
+.right {
+    width: 20vw;
+    height: 21rem;
+    margin-top: 5rem;
+    border: 1px solid rgba(128, 128, 128, 0.573);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+}
+
+.rTxt {
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.rBtn2 {
+    background-color: rgb(167, 207, 249);
+    margin-top: 0.2rem;
+}
+
+.rBtn2:hover {
+    background-color: rgb(118, 183, 253);
+    margin-top: 0.2rem;
+}
+
+.rBtn {
+    background-color: transparent;
+    width: 100%;
+    border: none;
+
+    height: 2.5rem;
+    font-size: 1.1rem;
+}
+
+.btnSbt {
+    width: 11rem;
+    height: 2.5rem;
+    margin: auto;
+    display: block;
+    background-color: green;
+    border: none;
+    color: white;
+    border-radius: 0.7rem;
+    font-size: 1.1rem;
+}
+
+.btnSbt:hover {
+    cursor: pointer;
+    background-color: rgba(0, 128, 0, 0.801);
+
+    color: white;
+}
+
+.alertHold {
+    width: 30vw;
+    border: 1px solid;
+    margin: auto;
+    display: block;
+    position: absolute;
+    top: 11vw;
+    left: 35vw;
+    position: fixed;
+    z-index: 9;
+    background-color: white;
+    border-radius: 1rem;
+
+}
+
+.alertHold1 {
+    background-color: green;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.alertTxt {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.alertTxt2 {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: gray;
+}
+
+.btnHld {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.alertBtn {
+    margin: auto;
+    display: block;
+    width: 5rem;
+    height: 2rem;
+    border: none;
+    border-radius: 0.2rem;
+    background-color: green;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.txtL {
+    font-size: 1.2rem;
+    color: green;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.in {
+    height: 1.6rem;
+    text-align: center;
+}

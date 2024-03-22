@@ -1,0 +1,65 @@
+.main_container {
+    width: 100%;
+    padding: 3rem;
+}
+
+.container {
+    width: 100%;
+}
+
+.backBtn {
+    padding: .5rem 1rem;
+    background: rgb(67, 139, 248);
+    border: none;
+    color: white;
+    font-weight: 600;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 2rem;
+    text-decoration: none;
+    font-size: .9rem;
+}
+
+.container .imgsize {
+    width: 3rem;
+    height: 3rem;
+}
+
+.container table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: .5rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.image {
+    width: 3rem;
+    height: 3rem;
+    margin: 1rem;
+}
+
+.indiHd {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.indiResultHold {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 249, 255);
+
+}
+
+.indiResultHoldIn {
+    width: 60vw;
+    border: 1px solid rgb(139, 139, 139);
+    background-color: rgb(224, 244, 255);
+    text-align: center;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
